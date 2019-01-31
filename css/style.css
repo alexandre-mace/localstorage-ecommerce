@@ -84,17 +84,17 @@ header {
 	top: 0;
 	z-index: 10;
 }
-@media screen and (max-width: 530px) {
-	navbar > h2 {
-		display: none;
-	}
-}
 navbar {
 	position: relative;
 	background-color: white;
 	padding: 20px;
 	border-bottom: 1px solid #d8d8d8;
 	box-shadow: 0 0 0.3rem rgba(0,0,0,.25);
+}
+@media screen and (max-width: 530px) {
+	navbar > section > h2 {
+		display: none;
+	}
 }
 #brand-logo {
 	max-width: 100px;
@@ -106,11 +106,6 @@ navbar h2 {
 	margin: 0;
 }
 /* CART */
-@media screen and (max-width: 700px) {
-	#cart-wrapper {
-		padding: 0;
-	}
-}
 #cart-wrapper {
 	cursor: default;
 	display: flex;
@@ -127,6 +122,11 @@ navbar h2 {
 	font-size: 1.5rem;
 	box-shadow: -4px 5px 23px -6px rgba(0,0,0,0.75);
 	transition: all .5s ease-in;
+}
+@media screen and (max-width: 700px) {
+	#cart-wrapper {
+		padding: 0;
+	}
 }
 #cart-wrapper.active {
 	top: 0;
@@ -255,11 +255,6 @@ navbar h2 {
 	outline-color: #28bc83;
 }
 /* PRODUCT */
-@media screen and (max-width: 700px) {
-	.product {
-		padding: 30px;
-	}
-}
 .product {
 	-webkit-transition: all 0.3s; /* Safari */
 	transition: all 0.3s;
@@ -269,6 +264,11 @@ navbar h2 {
 	border-radius: 8px;
 	margin: 20px;
 	border: 1px solid #e7ebf3
+}
+@media screen and (max-width: 700px) {
+	.product {
+		padding: 30px;
+	}
 }
 .product:hover {
 	box-shadow: 0 0 3px rgba(0,0,0,.6);
