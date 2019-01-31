@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LocalStorage Ecommerce</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<navbar class="d-flex justify-content-between align-items-center navbar">
+			<h2><img id="brand-logo" src="https://i.imgflip.com/2qklki.jpg"></h2>
+			<section class="d-flex align-items-center">
+				<h1 class="d-flex flex-column"><span>LocalStorage</span> <span>Ecommerce</span></h1>
+			</section>
+			<section id="cart">
+                <span id="cartItemsNumber"></span>
+                <i id="cart-logo" class="fas fa-shopping-cart fa-2x"></i>
+				<section id="cart-wrapper">
+					<span id="cart-close"><i class="fas fa-times fa-2x"></i></span>
+					<ul id="cart-list">
+
+					</ul>
+					<span id="cart-price"></span>
+					<ul class="d-flex justify-content-around align-items-center">
+						<li>
+							<button id="cart-send">order</button>
+						</li>
+						<li>
+							<span id="cart-clear">clear all</span>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</navbar>
+	</header>
+
+	<section id="articles" class="d-flex flex-wrap justify-content-center">
+		<article class="product">
+			<img src="https://i.imgflip.com/2qklki.jpg">
+			<h3>Produit 1</h3>
+			<span class="price">50 €</span>
+			<form class="w-100 d-flex justify-content-center flex-column cartItem-add" action="">
+				<input type="hidden" name="name" value="Produit 1">
+				<input type="hidden" name="price" value="50">
+				<input type="hidden" name="image" value="https://i.imgflip.com/2qklki.jpg">
+				<input name="quantity" type="number" min="1" step="1" value="1">
+				<select name="color">
+					<option>black</option>
+					<option>white</option>
+					<option>red</option>
+				</select>
+				<span class="submit-wrapper">
+					<input type="submit" name="">
+					<span class="submit-icon"></span>
+				</span>
+			</form>
+		</article>
+		<article class="product">
+			<img src="https://i.imgflip.com/2qklki.jpg">
+			<h3>Produit 2</h3>
+			<span class="price">50 €</span>
+			<form class="w-100 d-flex justify-content-center flex-column cartItem-add" action="">
+				<input type="hidden" name="name" value="Produit 2">
+				<input type="hidden" name="price" value="50">
+				<input type="hidden" name="image" value="https://i.imgflip.com/2qklki.jpg">
+				<input name="quantity" type="number" min="1" step="1" value="1">
+				<select name="color">
+					<option>black</option>
+					<option>white</option>
+					<option>red</option>
+				</select>
+				<span class="submit-wrapper">
+					<input type="submit" name="">
+					<span class="submit-icon"></span>
+				</span>
+			</form>
+		</article>
+		<article class="product">
+			<img src="https://i.imgflip.com/2qklki.jpg">
+			<h3>Produit 3</h3>
+			<span class="price">50 €</span>
+			<form class="w-100 d-flex justify-content-center flex-column cartItem-add" action="">
+				<input type="hidden" name="name" value="Produit 3">
+				<input type="hidden" name="price" value="50">
+				<input type="hidden" name="image" value="https://i.imgflip.com/2qklki.jpg">
+				<input name="quantity" type="number" min="1" step="1" value="1">
+				<select name="color">
+					<option>black</option>
+					<option>white</option>
+					<option>red</option>
+				</select>
+				<span class="submit-wrapper">
+					<input type="submit" name="">
+					<span class="submit-icon"></span>
+				</span>
+			</form>
+		</article>
+		<article class="product">
+			<img src="https://i.imgflip.com/2qklki.jpg">
+			<h3>Produit 4</h3>
+			<span class="price">50 €</span>
+			<form class="w-100 d-flex justify-content-center flex-column cartItem-add" action="">
+				<input type="hidden" name="name" value="Produit 4">
+				<input type="hidden" name="price" value="50">
+				<input type="hidden" name="image" value="https://i.imgflip.com/2qklki.jpg">
+				<input name="quantity" type="number" min="1" step="1" value="1">
+				<select name="color">
+					<option>black</option>
+					<option>white</option>
+					<option>red</option>
+				</select>
+				<span class="submit-wrapper">
+					<input type="submit" name="">
+					<span class="submit-icon"></span>
+				</span>
+			</form>
+		</article>
+	</section>
+	<footer></footer>
+	<script src="https://unpkg.com/facon"></script>
+	<script src="js/service.js"></script>
+	<script src="js/model.js"></script>
+	<script src="js/query.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/event.js"></script>
+	<script src="js/listeners.js"></script>
+</body>
+</html>
