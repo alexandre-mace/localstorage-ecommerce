@@ -12,7 +12,7 @@ function formatCartItem(cartItem, itemPrice) {
                         <span>${cartItem[1]['name']}</span>
                         <span>${cartItem[1]['color']}</span>
                         <form action="">
-                        <input data-id="${cartItem[1]['id']}" class="cartItem-quantity" name="quantity" type="number" min="0" step="1" value=${cartItem[1]['quantity']}>
+                        <input data-id="${cartItem[1]['id']}" class="cartItem-quantity" name="quantity" type="number" min="1" step="1" value=${cartItem[1]['quantity']}>
                         </form>
                         <span data-id="${cartItem[1]['id']}" class="cartItem-remove"><i class="far fa-trash-alt fa-2x"></i></span>
                     </section>

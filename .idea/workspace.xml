@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0614100-b187-4155-81e4-7a4c9840e02e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Domain/cart.js" afterPath="$PROJECT_DIR$/js/Domain/cart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Listener/Cart/cartSendListener.js" afterPath="$PROJECT_DIR$/js/Listener/Cart/cartSendListener.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Service/sendJsonCart.js" afterPath="$PROJECT_DIR$/js/Service/sendJsonCart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Service/formatCartItem.js" afterPath="$PROJECT_DIR$/js/Service/formatCartItem.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.js" afterPath="$PROJECT_DIR$/script.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,16 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cartOpenListener.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Listener/Cart/cartOpenListener.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cartItemRemoveListener.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Listener/CartItem/cartItemRemoveListener.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,6 +34,42 @@
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generateNewCart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Service/generateNewCart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formatCartItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Service/formatCartItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="124" lean-forward="false" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
+              <folding>
+                <marker date="1548967798156" expanded="true" signature="116:1014" ph="..." />
+                <marker date="1548967798156" expanded="true" signature="154:996" ph="..." />
+                <marker date="1548967798156" expanded="true" signature="184:314" ph="..." />
+                <marker date="1548967798156" expanded="true" signature="371:972" ph="..." />
+                <marker date="1548967798156" expanded="true" signature="609:810" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,37 +104,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Domain/cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="162">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cartUpdateListener.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Listener/Cart/cartUpdateListener.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carItemAddListener.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Listener/CartItem/carItemAddListener.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,7 +211,6 @@
         <option value="$PROJECT_DIR$/js/Service/animateCartItemNumbers.js" />
         <option value="$PROJECT_DIR$/js/Service/facon.js" />
         <option value="$PROJECT_DIR$/js/Service/slugify.js" />
-        <option value="$PROJECT_DIR$/js/Service/formatCartItem.js" />
         <option value="$PROJECT_DIR$/js/Service/generateNewCart.js" />
         <option value="$PROJECT_DIR$/js/Listener/Cart/cartClearListener.js" />
         <option value="$PROJECT_DIR$/js/Listener/Cart/cartCloseListener.js" />
@@ -227,6 +225,7 @@
         <option value="$PROJECT_DIR$/js/Listener/Cart/cartSendListener.js" />
         <option value="$PROJECT_DIR$/js/Service/sendJsonCart.js" />
         <option value="$PROJECT_DIR$/js/Domain/cart.js" />
+        <option value="$PROJECT_DIR$/js/Service/formatCartItem.js" />
       </list>
     </option>
   </component>
@@ -276,58 +275,7 @@
             <path>
               <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="custom_ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Event" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Event" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Cart" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Event" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CartItem" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Listener" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Listener" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Cart" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Listener" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CartItem" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="custom_ecommerce" type="b2602c69:ProjectViewProjectNode" />
@@ -395,12 +343,12 @@
       <workItem from="1548093275532" duration="10896000" />
       <workItem from="1548428527723" duration="62301000" />
       <workItem from="1548922519891" duration="249000" />
-      <workItem from="1548944458653" duration="14206000" />
+      <workItem from="1548944458653" duration="15436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178649000" />
+    <option name="totallyTimeSpent" value="179879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
@@ -438,16 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -690,30 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Service/formatCartItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <marker date="1548962430253" expanded="true" signature="116:1014" ph="..." />
-            <marker date="1548962430253" expanded="true" signature="154:996" ph="..." />
-            <marker date="1548962430253" expanded="true" signature="184:314" ph="..." />
-            <marker date="1548962430253" expanded="true" signature="371:972" ph="..." />
-            <marker date="1548962430253" expanded="true" signature="609:810" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Service/generateNewCart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Event/CartItem/cartItemUpdateEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -804,16 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Listener/Cart/cartSendListener.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -832,11 +736,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Domain/cart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        <state relative-caret-position="162">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Service/generateNewCart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Service/formatCartItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="124" lean-forward="false" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
+          <folding>
+            <marker date="1548967798156" expanded="true" signature="116:1014" ph="..." />
+            <marker date="1548967798156" expanded="true" signature="154:996" ph="..." />
+            <marker date="1548967798156" expanded="true" signature="184:314" ph="..." />
+            <marker date="1548967798156" expanded="true" signature="371:972" ph="..." />
+            <marker date="1548967798156" expanded="true" signature="609:810" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
