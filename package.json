@@ -1,0 +1,19 @@
+{
+  "name": "localstorage_ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify js/main.js -o script.js -t [ babelify --presets [ @babel/env ] ] -d",
+    "watch": "watchify js/main.js -o script.js -t [ babelify --presets [ @babel/env ] ] -d -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babelify": "^10.0.0"
+  }
+}

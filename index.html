@@ -10,9 +10,16 @@
 <body>
 	<header>
 		<navbar class="d-flex justify-content-between align-items-center navbar">
-			<h2><img id="brand-logo" src="https://i.imgflip.com/2qklki.jpg"></h2>
+			<section>
+				<h2>
+					<img id="brand-logo" src="https://i.imgflip.com/2qklki.jpg">
+				</h2>
+			</section>
 			<section class="d-flex align-items-center">
-				<h1 class="d-flex flex-column"><span>LocalStorage</span> <span>Ecommerce</span></h1>
+				<h1 class="d-flex flex-column">
+					<span>LocalStorage</span>
+					<span>Ecommerce</span>
+				</h1>
 			</section>
 			<section id="cart">
                 <span id="cartItemsNumber"></span>
@@ -36,7 +43,7 @@
 		</navbar>
 	</header>
 
-	<section id="articles" class="d-flex flex-wrap justify-content-center">
+	<main id="articles" class="d-flex flex-wrap justify-content-center">
 		<article class="product">
 			<img src="https://i.imgflip.com/2qklki.jpg">
 			<h3>Produit 1</h3>
@@ -117,14 +124,9 @@
 				</span>
 			</form>
 		</article>
-	</section>
+	</main>
 	<footer></footer>
 	<script src="https://unpkg.com/facon"></script>
-	<script src="js/service.js"></script>
-	<script src="js/model.js"></script>
-	<script src="js/query.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/event.js"></script>
-	<script src="js/listener.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>

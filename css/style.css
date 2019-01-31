@@ -75,7 +75,7 @@ input:focus, select:focus {
 	outline-color: #28bc83;
 }
 /* BODY */
-body > section {
+body > main {
 	margin: 30px 10%;
 }
 /* HEADER - NAVBAR */
