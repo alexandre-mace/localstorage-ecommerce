@@ -8,6 +8,7 @@ import cartItemRemoveListener from "./Listener/CartItem/cartItemRemoveListener";
 import cartItemQuantityListener from "./Listener/CartItem/cartItemQuantityListener";
 import cartItemUpdateListener from "./Listener/CartItem/cartItemUpdateListener";
 import carItemAddListener from "./Listener/CartItem/carItemAddListener";
+import cartSendListener from "./Listener/Cart/cartSendListener";
 
 
 cartItemQuantityListener();
@@ -18,6 +19,7 @@ cartUpdateListener();
 cartOpenListener();
 cartClearListener();
 cartCloseListener();
+cartSendListener();
 
 showCart(Cart.getCart());
 

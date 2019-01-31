@@ -1,4 +1,5 @@
 import { slugify } from './../Service/slugify';
+import {add} from "../Service/add";
 
 // OBJECTS
 const Cart = {
